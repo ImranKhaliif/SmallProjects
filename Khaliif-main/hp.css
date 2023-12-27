@@ -1,0 +1,33 @@
+.navbar {
+  background: white;
+  color: black;
+  width: 100%;
+  padding-bottom: 0px;
+  font-size: medium;
+  }
+
+  .navbar a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    }
+
+li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bodyone {
+  text-align: center;
+  color: black;
+  padding-top: 0px;
+  font-size: medium;
+}
