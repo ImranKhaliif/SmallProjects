@@ -1,0 +1,66 @@
+html {
+        background-color: black;
+}
+
+.topnav {
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        font-weight: bold;
+}
+
+.firstbutton {
+    width: 100px;
+    height: 25px;
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(blue);
+}
+
+.p {
+    color: lightgray;
+}
+
+.homebutton {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right: 350px;
+    margin-left: 350px;
+    border-radius: 25px;
+}
+
+.gsbutton {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    border-color: black;
+    padding: 20px;
+}
+
+.ftbutton {
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.pmimg {
+    margin-top: 50px;
+}

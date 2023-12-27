@@ -1,0 +1,73 @@
+html {
+    background-color: black;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.logo {
+width: 50px;
+height: 50px;
+}
+
+body {
+display: flex;
+justify-content: space-evenly;
+color: white;
+backdrop-filter: blur(blue);
+list-style-type: none;
+}
+
+.p {
+color: lightgray;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    max-width: 1200px;
+    margin: 2em auto;
+    list-style-type: none;
+}
+
+.columns {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.price {
+    list-style-type: none;
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+    margin: 1em;
+}
+
+.button {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
